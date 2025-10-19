@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color:#ebdfce ;
+}
+
+
+/* HEADER */
+
+.header{
+    text-align: center;
+    margin: 20px;
+    background-color: #978671;
+}
+
+.header img{
+    background-color: #978671;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.nav a{
+    color: #ebdfce;
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+h1{
+    margin: 40px;
+}
+
+main{
+    justify-content: center;
+
+   
+}
+
+form {
+    padding: 1rem;
+    gap: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "nom prenom"
+    "email telephone"
+    "date heure"
+    "button button";
+}
+
+#nom{
+    grid-area: nom;
+    max-width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#prenom{
+    grid-area: prenom;
+    max-width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#email{
+    grid-area: email;
+    max-width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#telephone{
+    grid-area: telephone;
+    max-width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#date{
+    grid-area: date;
+    max-width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#heure{
+    grid-area: heure;
+    max-width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button{
+    margin: 5px;
+    padding: 5px;
+    background-color: #978671;
+    color: #ebdfce;
+    font-size: 16px;
+    width: 20%;
+}
+
+footer{
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #978671;
+}
+
+footer img{
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 20px;
+}
+
+footer a{
+    display: grid;
+    grid-template-rows: auto;
+
+    color: #ebdfce;
+    margin-left: 50px;
+}
+
+footer p{
+    color: #000000;
+}
+
+

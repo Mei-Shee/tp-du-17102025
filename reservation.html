@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Réservation</title>
+</head>
+<body>
+    <header class="header">
+        <img src="Zen’Spa.png" alt="logo Zen'Spa">
+        <nav class="nav">
+            <a href="reservation">Réservation</a>
+            <a href="galerie">Galerie photos</a>
+            <a href="soins">Nos soins</a>
+        </nav>
+    </header>
+    <main class="main">
+        <h1>Réservation</h1>
+        <form action="">
+            <fieldset class="formulaire">
+                <label for="nom"></label>
+                <input type="text" name="nom" placeholder="Nom" required>
+
+                 <label for="prenom"></label>
+                <input type="text" name="prenom" placeholder="Prénom" required>
+
+                 <label for="email"></label>
+                <input type="text" name="email" placeholder="Email" required>
+
+                 <label for="telephone"></label>
+                <input type="tel" name="telephone" placeholder="Téléphone" required>
+
+                <label for="date">Choix de la date</label>
+                <input type="date" id="date" name="date" required min="18-10-2025">
+
+                <label for="heure">Choix de l'heure</label>
+                <input type="time" name="heure" id="heure" required>
+
+                <button type="submit">Envoyer</button>
+            </fieldset>
+        </form>
+        <p>Merci à bientôt</p>
+    </main>
+<footer>
+        <img src="./Zen’Spa.png" alt="logo Zen'Spa">
+
+        <a href="accueil">Accueil</a>
+        <a href="reserver">Réserver</a>
+        <a href="mentionsLegales">Mentions légales</a>
+
+        <p>05.45.59.78.66</p>
+
+    </footer>
+</body>
+</html>
